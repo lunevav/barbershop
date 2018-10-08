@@ -1,0 +1,156 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+    margin: 0px;
+}
+
+div{
+    /* border: white solid 1px; */
+}
+
+.header{
+    background: black;  
+    height: 72px;
+    align-self: center;
+    margin: auto;
+}
+
+.nav-menu-wrapper{
+    width: 940px;
+    height: 72px;   
+}
+
+.nav-menu{
+    height: 72px; 
+    font-size: 16px;
+}
+
+.nav-menu li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-menu-last-item{
+    float: right;
+}
+
+.main{
+    width: 940px;
+    margin: auto;   
+}
+
+.logo-wrapper{
+    text-align: center;
+    padding: 40px;
+}
+
+.slogan-container{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan{
+    margin: 10px;
+    padding: 10px;
+}
+
+.slogan-header{
+    text-align: center;
+    font-size: 30px;
+}
+
+.slogan-icon{
+    text-align: center;
+}
+
+.slogan-description{
+    font-size: 14px;
+    text-align: center;
+}
+
+.content-container{
+    display: flex;
+    background: white;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.content-container p{
+    margin: 3px;
+}
+
+.content{
+    font-size: 14px;
+    padding: 10px;
+    width: 40%;
+}
+
+.content-content-block{
+    margin-bottom: 30px;
+}
+
+.content-header{
+    font-size: 30px;
+}
+
+.content-button{
+    display: flex;
+}
+
+.input-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    padding: 10px;
+}
+
+.input-container{
+
+}
+
+.input-container input{
+    width: 140px;
+    height: 45px;
+    border: solid 2px;
+}
+
+.button{
+    background: black;
+    color: white;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.big-button{
+    background: black;
+    color: white;
+    width: 300px;
+    height: 45px;
+}
+
+.footer{
+    display: flex;
+    width: 940px;
+    display: flex; 
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.footer-left{
+    font-size: 14px;
+}
+.footer-mid{
+    font-size: 14px;
+}
+.footer-right{
+    font-size: 14px;
+}
