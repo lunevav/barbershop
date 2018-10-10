@@ -4,37 +4,39 @@ body{
     color: white;
     font-family: 'PT Sans Narrow';
     font-weight: bold;
-    margin: 0px;
-}
-
-div{
-    /* border: white solid 1px; */
 }
 
 .header{
     background: black;  
     height: 72px;
-    align-self: center;
-    margin: auto;
 }
 
 .nav-menu-wrapper{
     width: 940px;
-    height: 72px;   
+    height: 72px;
+    margin: 0 auto;
+    padding-top: 25px;   
 }
 
 .nav-menu{
     height: 72px; 
     font-size: 16px;
+    margin: 0;
+    list-style: none;
+
 }
 
 .nav-menu li{
-    list-style: none;
     display: inline;
+    margin-right: 20px;
 }
 
 .nav-menu-last-item{
     float: right;
+}
+
+.nav-menu-last-item img{
+    margin-right: 10px; 
 }
 
 .main{
@@ -44,22 +46,24 @@ div{
 
 .logo-wrapper{
     text-align: center;
-    padding: 40px;
+    padding: 80px;
 }
 
 .slogan-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .slogan{
-    margin: 10px;
-    padding: 10px;
+    height: 170px;
+    width: 280px;
 }
 
 .slogan-header{
     text-align: center;
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .slogan-icon{
@@ -148,9 +152,11 @@ div{
 .footer-left{
     font-size: 14px;
 }
+
 .footer-mid{
     font-size: 14px;
 }
+
 .footer-right{
     font-size: 14px;
 }
